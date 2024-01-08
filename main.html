@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Media Table and List</title>
+    <title>Semantic Table and Ordered List</title>
 </head>
+
 <body>
 
-    <!-- Table -->
-    <table border>
+    <table border="1">
         <thead>
             <tr>
                 <th>Roll Number</th>
@@ -17,39 +18,48 @@
         </thead>
         <tbody>
             <tr>
-                <td>1</td>
+                <td>101</td>
                 <td>John Doe</td>
             </tr>
             <tr>
-                <td>2</td>
-                <td>Jane Doe</td>
+                <td>102</td>
+                <td>Jane Smith</td>
             </tr>
             <tr>
-                <td>3</td>
-                <td>Bob Smith</td>
+                <td>103</td>
+                <td>Bob Johnson</td>
             </tr>
         </tbody>
     </table>
 
-    <!-- Heading for the List -->
-    <h2>List of Medias</h2>
+    <h2>List of medias</h2>
 
-    <!-- Ordered List -->
     <ol>
         <li>
-             <img src="https://picsum.photos/id/123/200/300" alt="Random Image">
+            <figure>
+                <img src="https://picsum.photos/id/123/200/300" alt="Random Image">
+            </figure>
         </li>
         <li>
-             <video width="200" height="200" controls>
-                <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" alt="Random Video" type="video/mp4">
-            </video>
+            <figure>
+                <video controls>
+                    <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                        type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </figure>
         </li>
         <li>
-             <audio controls>
-                <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" alt="random audio" type="audio/ogg">
-            </audio>
+            <figure>
+                <audio controls>
+                    <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg"
+                        type="audio/ogg">
+    
+                </audio>
+            </figure>
         </li>
     </ol>
 
 </body>
+
 </html>
