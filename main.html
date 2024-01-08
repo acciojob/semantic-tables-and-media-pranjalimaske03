@@ -1,81 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Semantic Table and Media List</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-    }
-    table {
-      width: 50%;
-      margin-bottom: 20px;
-      border-collapse: collapse;
-    }
-    th, td {
-      border: 1px solid #ddd;
-      padding: 10px;
-      text-align: left;
-    }
-    th {
-      background-color: #f2f2f2;
-    }
-    h2 {
-      margin-bottom: 10px;
-    }
-    ol {
-      list-style-type: none;
-      padding: 0;
-    }
-    li {
-      margin-bottom: 10px;
-    }
-  </style>
+	<link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-
-  <!-- Semantic Table -->
-  <table>
-    <thead>
-      <tr>
-        <th>Roll Number</th>
-        <th>Name</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>001</td>
-        <td>John Doe</td>
-      </tr>
-      <tr>
-        <td>002</td>
-        <td>Jane Smith</td>
-      </tr>
-      <tr>
-        <td>003</td>
-        <td>Bob Johnson</td>
-      </tr>
-    </tbody>
-  </table>
-
-  <!-- Heading for Media List -->
-  <h2>List of medias</h2>
-
-  <!-- Ordered List with Media Items -->
-  <ol>
-    <li>
-      Image: <img src="https://picsum.photos/id/123/200/300" alt="Random Image">
-    </li>
-    <li>
-      Video: <video controls src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
-      </video>
-    </li>
-    <li>
-      Audio: <audio controls  src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
-      </audio
-    </li>
-  </ol>
+	<!-- the entire body must be written by student -->
+	<table>
+		<thead>
+			<tr>
+				<th>Roll numbers</th>
+				<th>Names</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>Raja Kumar</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Rani Kumari</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Pragya Thakur</td>
+			</tr>
+		</tbody>
+	</table>
+	<h1>List of medias</h1>
+	<ol>
+		<li>
+			<img src="https://picsum.photos/id/123/200/300" alt="image">
+		</li>
+		<li>
+			<video width="320px" height="240px" controls>
+				<source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+			</video>
+		</li>
+		<li>
+			<audio src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="mp3/ogg" controls>
+			
+			</audio>
+		</li>
+	</ol>
+    <script type="text/javascript" src="./script.js">
+</script>
 
 </body>
+
 </html>
